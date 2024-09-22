@@ -286,7 +286,7 @@ const link_telegram = document.querySelector(".link_telegram");
 
 const userid = 2;
 const backend_url =
-  "https://www.masaba-kenneth.info/api/user/2/";
+  "https://backend.masaba-kenneth.info/api/user/2/";
 
 function fetchProfile() {
   fetch(`${backend_url}profile/`)
