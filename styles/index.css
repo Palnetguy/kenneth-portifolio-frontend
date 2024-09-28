@@ -265,7 +265,9 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.main_section_cont section#home .home {
+  padding: 0 1em;
+}
 .main_section_cont section#home h1 {
   font-size: 60px;
   font-weight: 600;
