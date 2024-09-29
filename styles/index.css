@@ -498,11 +498,11 @@ section {
 .main_section_cont section#my_projects .projects .projt {
   display: flex;
   flex-wrap: wrap;
-
   width: calc((100% / 3) - 2em);
   margin: 0 1em;
   margin-bottom: 2em;
   position: relative;
+  aspect-ratio: 1.5 / 1;
 }
 .main_section_cont section#my_projects .projects .projt .bg {
   width: 100%;
