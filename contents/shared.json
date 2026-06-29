@@ -1,0 +1,108 @@
+{
+  "profile": {
+    "name": "Masaba Kenneth",
+    "brand": "kenneth",
+    "role": "Electrical & Control Engineer",
+    "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_00.15.32_18fd0d89.jpg",
+    "heroTitlePrimary": "Masaba",
+    "heroTitleSecondary": "Kenneth"
+  },
+  "heroGallery": [
+    "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_00.15.32_18fd0d89.jpg",
+    "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_12.57.46_02584ed9.jpg",
+    "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_14.20.28_ef22612f.jpg",
+    "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_14.46.40_f47af0cb.jpg",
+    "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_17.33.01_3b3341bc.jpg",
+    "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/photo_2024-09-17_12-38-14.jpg"
+  ],
+  "contact": {
+    "location": "Uganda",
+    "email": "masaba.kenneth@gmail.com",
+    "phone": "0772440928"
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/Masaba2025"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/share/ckL7NXisUBzbMwh6/?mibextid=qi2Omg"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://t.me/masaba_kenneth"
+    },
+    {
+      "label": "X",
+      "href": "https://twitter.com/masabaken"
+    }
+  ],
+  "stack": {
+    "frontend": [
+      {
+        "name": "UIPE Graduate Member",
+        "icon": "/profile-highlights/badge.svg",
+        "featured": true
+      },
+      {
+        "name": "IAENG Member No. 549841",
+        "icon": "/profile-highlights/globe.svg",
+        "featured": true
+      },
+      {
+        "name": "Society of Electrical Engineering",
+        "icon": "/profile-highlights/circuit.svg",
+        "featured": true
+      },
+      {
+        "name": "28+ Years in the Electricity Sector",
+        "icon": "/profile-highlights/years.svg"
+      }
+    ],
+    "backend": [
+      {
+        "name": "UEDCL Area Leadership",
+        "icon": "/profile-highlights/leadership.svg",
+        "featured": true
+      },
+      {
+        "name": "District & Regional Operations",
+        "icon": "/profile-highlights/region.svg",
+        "featured": true
+      },
+      {
+        "name": "Large & Medium Customer Coordination",
+        "icon": "/profile-highlights/customers.svg"
+      }
+    ],
+    "database": [
+      {
+        "name": "220kV Transmission Delivery",
+        "icon": "/profile-highlights/transmission.svg"
+      },
+      {
+        "name": "Rural Electrification Projects",
+        "icon": "/profile-highlights/electrification.svg"
+      },
+      {
+        "name": "Network Supervision & Expansion",
+        "icon": "/profile-highlights/network.svg"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Embedded Systems Student",
+        "icon": "/profile-highlights/embedded.svg"
+      },
+      {
+        "name": "Master Student in HSE Management",
+        "icon": "/profile-highlights/safety.svg"
+      },
+      {
+        "name": "Gearbox Academy Kenya",
+        "icon": "/profile-highlights/education.svg"
+      }
+    ]
+  }
+}

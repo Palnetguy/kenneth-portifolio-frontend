@@ -1,0 +1,164 @@
+{
+  "about": {
+    "intro": "*Electrical & Control Engineer* with **28+ years in Uganda's electricity sector**, combining operational leadership, network delivery, and continued study in *embedded systems* and *health, safety, and environment management*.",
+    "description": "Kenneth brings deep experience across utility operations, transmission, rural electrification, and customer management, while continuing to strengthen his technical range through embedded systems study and advanced academic work.",
+    "full": "Hi, I'm **Masaba Kenneth**.\n\nI am a dedicated **Electrical & Control Engineer** and a **Graduate Member of the Uganda Institution of Professional Engineers (UIPE-GM/5267)**, an **IAENG Member (No. 549841)**, and part of the **IAENG Society of Electrical Engineering**.\n\nMy career in the electricity sector began in **1998** at the **Uganda Electricity Board (UEB)**, where I developed through field and engineering service roles and later became **Engineering Service Officer for the Kampala Metropolitan area** by **2001**.\n\nFollowing the formation of **Uganda Electricity Distribution Company Limited (UEDCL)** in **2001**, I was appointed **District Manager for Rukungiri**, serving until **February 2005**. I then moved to **Umeme**, where I managed district operations before taking on the role of **Coordinator for Three Phase Large and Medium Customers** at head office.\n\nMy broader experience includes work with **Micropower Group** on the **Bujagali-Kawanda 220kV Transmission Tower Project** under Jyoti Structures Ltd, **Utility Engineering Services** on rural electrification and power construction projects in **Uganda and Rwanda**, **PowerAfrica Limited** as **Business Manager**, and **Ferdsuit Engineering Services Ltd** as **Area Supervisor and Team Leader** supporting strategic network expansion in the oil region.\n\nSince **March 1, 2017**, I have continued serving within **UEDCL** in area leadership roles across **Kagadi**, **Pabbo & Anaka**, and **Kotido**. In **April 2025**, I progressed into the role of **Senior Officer Area Manager**, leading and supervising area activities with a strong focus on operations, service delivery, and team leadership.\n\nAlongside industry work, I am currently a **student in Embedded Systems at Gearbox Academy Kenya** and a **Master Science student in Health, Safety & Environment Management at Victoria University Kampala**. My focus is to keep building on a long foundation in power systems while expanding into modern control, embedded systems, and disciplined engineering practice."
+  },
+  "manifesto": [
+    "PRACTICAL ENGINEERING",
+    "FIELD RELIABILITY",
+    "SYSTEMS THAT LAST",
+    "EMBEDDED CURIOSITY",
+    "SAFETY WITH DISCIPLINE",
+    "CONTINUOUS LEARNING"
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Blinking LED Pin 25",
+      "category": "Raspberry Pi Pico",
+      "year": "2024",
+      "description": "A foundational Raspberry Pi Pico exercise focused on driving the onboard LED connected to GP25. The project validates board setup, code upload workflow, and basic GPIO control before moving into more complex embedded builds.",
+      "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_12.57.46_02584ed9.jpg",
+      "demo": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/videos/WhatsApp_Video_2024-05-19_at_12.57.45_85dd76ea.mp4",
+      "repo": "https://github.com/Masaba2025/blinking_led_25_on_pico",
+      "stack": [
+        "Raspberry Pi Pico",
+        "GPIO",
+        "MicroPython",
+        "LED Control"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Interfacing Pico With External LED",
+      "category": "Prototype Wiring",
+      "year": "2024",
+      "description": "A breadboard-based build that extends output control from the Pico to an external LED circuit. This project focuses on practical pin mapping, external component wiring, and repeatable hardware setup.",
+      "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_14.04.44_f0e786a8.jpg",
+      "demo": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/videos/WhatsApp_Video_2024-05-19_at_14.04.44_be3cb1b3.mp4",
+      "repo": "https://github.com/Masaba2025/",
+      "stack": [
+        "Raspberry Pi Pico",
+        "Breadboard",
+        "External LED",
+        "Circuit Prototyping"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "LED and Push Button Interface",
+      "category": "Input / Output Logic",
+      "year": "2024",
+      "description": "A compact embedded exercise that combines digital input and output by controlling an LED with a push button. The work demonstrates button handling, simple state changes, and core physical computing logic.",
+      "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_14.20.28_ef22612f.jpg",
+      "demo": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/videos/WhatsApp_Video_2024-05-19_at_14.20.28_4f02f01f.mp4",
+      "repo": "https://github.com/Masaba2025/interfacing_led-pushbutton",
+      "stack": [
+        "Raspberry Pi Pico",
+        "Push Button",
+        "LED",
+        "GPIO Logic"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Brightness Control With PWM",
+      "category": "Analog Interaction",
+      "year": "2024",
+      "description": "A PWM-based control build using a potentiometer to vary LED brightness. The project explores analog input, duty cycle control, and how user input can shape visible output in a microcontroller circuit.",
+      "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_17.08.38_ea6e40b0.jpg",
+      "demo": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/videos/WhatsApp_Video_2024-05-19_at_17.08.37_91e30fed.mp4",
+      "repo": "https://github.com/Masaba2025/control_brightness_with_PWM",
+      "stack": [
+        "PWM",
+        "Potentiometer",
+        "Raspberry Pi Pico",
+        "Analog Control"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Ultrasonic Sensor Project",
+      "category": "Embedded Sensing",
+      "year": "2024",
+      "description": "A sensor-driven prototype using an ultrasonic module with LED feedback. The project introduces basic distance measurement, sensor interpretation, and responsive output handling in a practical embedded workflow.",
+      "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/WhatsApp_Image_2024-05-19_at_17.33.01_3b3341bc.jpg",
+      "demo": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/videos/WhatsApp_Video_2024-05-19_at_17.33.00_a69ec591.mp4",
+      "repo": "https://github.com/Masaba2025/ultrasonic_sensor_project",
+      "stack": [
+        "Ultrasonic Sensor",
+        "Breadboard",
+        "Raspberry Pi Pico",
+        "LED Feedback"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Web Server (Arduino)",
+      "category": "Arduino Networking",
+      "year": "2025",
+      "description": "A web server experiment built on Arduino hardware to explore device communication over a network. The project moves beyond LED exercises into embedded connectivity and remote interaction patterns.",
+      "image": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/images/photo_2024-09-17_12-38-14.jpg",
+      "demo": "https://kenneth-bkt-24.s3.us-west-2.amazonaws.com/videos/VID_20241019_164539.mp4",
+      "repo": "https://github.com/Masaba2025",
+      "stack": [
+        "Arduino",
+        "Web Server",
+        "Networking",
+        "Embedded Control"
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "01",
+      "year": "1998",
+      "description": "Kenneth began his professional journey at the Uganda Electricity Board as a Technician Trainee, building a foundation in distribution planning, transformer testing, asset management, and field operations across the Kampala Metropolitan area.",
+      "stack": [
+        "UEB",
+        "Distribution Operations"
+      ]
+    },
+    {
+      "id": "02",
+      "year": "2001-2005",
+      "description": "By 2001 he had advanced into engineering service leadership for Kampala Metropolitan and, after the formation of UEDCL, moved into district-level responsibility in Rukungiri as Engineering Service Assistant and later District Manager.",
+      "stack": [
+        "Engineering Services",
+        "District Management",
+        "UEDCL"
+      ]
+    },
+    {
+      "id": "03",
+      "year": "2005-2008",
+      "description": "At Umeme, Kenneth managed district operations in Rukungiri before moving to head office as Coordinator for Three Phase Large and Medium Customers, overseeing planning, monitoring, and loss management for key customer accounts.",
+      "stack": [
+        "Umeme",
+        "Distribution",
+        "Large Customer Coordination"
+      ]
+    },
+    {
+      "id": "04",
+      "year": "2009-2017",
+      "description": "His wider engineering path covered the Bujagali-Kawanda 220kV transmission project, rural electrification work in Uganda and Rwanda, business management responsibilities, and network supervision in the Masindi, Biiso, and Buliisa areas.",
+      "stack": [
+        "Transmission",
+        "Rural Electrification",
+        "Supervision"
+      ]
+    },
+    {
+      "id": "05",
+      "year": "2017-Present",
+      "description": "Since March 2017 Kenneth has served in successive UEDCL leadership roles across Kagadi, Anaka, and Kotido, progressing to Senior Officer Area Manager in April 2025 while also pursuing embedded systems study at Gearbox Academy Kenya and MSc studies in HSE Management.",
+      "stack": [
+        "Area Leadership",
+        "UEDCL",
+        "Continuous Study"
+      ]
+    }
+  ]
+}
