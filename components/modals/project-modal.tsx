@@ -8,7 +8,7 @@ import {
 
 import { useLenisModal } from "@/hooks/use-lenis-modal";
 import { useLanguage } from "@/providers/language-provider";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, Play } from "lucide-react";
 import Image from "next/image";
 import type { ProjectItem } from "@/types/project";
 import { ShineButton } from "@/components/ui/shine-button";
@@ -22,6 +22,7 @@ interface ProjectModalProps {
 export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps) {
     useLenisModal(open);
     const { dict } = useLanguage();
+    const isDirectVideoDemo = Boolean(project?.demo && /\.(mp4|webm|ogg|mov)(\?.*)?$/i.test(project.demo));
 
     if (!project) return null;
 
@@ -74,6 +75,32 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                             </p>
                         </div>
 
+                        {isDirectVideoDemo && project.demo && (
+                            <div className="flex flex-col gap-4">
+                                <h3 className="text-sm tracking-widest text-muted-foreground uppercase">
+                                    {dict.demoVideo}
+                                </h3>
+
+                                <div className="group relative overflow-hidden rounded-[1.75rem] border border-border/50 bg-secondary/10 shadow-2xl">
+                                    <div className="pointer-events-none absolute inset-0 z-10 bg-linear-to-t from-background/50 via-transparent to-transparent" />
+                                    <div className="pointer-events-none absolute top-5 left-5 z-10 inline-flex items-center gap-2 rounded-full border border-border/40 bg-background/60 px-3 py-1.5 text-[10px] font-mono tracking-[0.2em] uppercase text-foreground/80 backdrop-blur-md">
+                                        <Play className="h-3 w-3" />
+                                        {dict.demoVideo}
+                                    </div>
+
+                                    <video
+                                        controls
+                                        playsInline
+                                        preload="metadata"
+                                        poster={project.image}
+                                        className="block aspect-video w-full bg-black object-cover"
+                                    >
+                                        <source src={project.demo} />
+                                    </video>
+                                </div>
+                            </div>
+                        )}
+
                         {project.stack && project.stack.length > 0 && (
                             <div>
                                 <h3 className="text-sm tracking-widest text-muted-foreground uppercase mb-4">{dict.technologies}</h3>
@@ -90,9 +117,9 @@ export function ProjectModal({ open, onOpenChange, project }: ProjectModalProps)
                             </div>
                         )}
 
-                        {(project.demo || project.repo) && (
+                        {((project.demo && !isDirectVideoDemo) || project.repo) && (
                             <div className="flex flex-wrap gap-4 pt-4 border-t border-border/50">
-                                {project.demo && (
+                                {project.demo && !isDirectVideoDemo && (
                                     <ShineButton
                                         href={project.demo}
                                         className="h-12 bg-foreground px-6 sm:px-8 text-background hover:bg-background hover:text-foreground shadow-lg hover:-translate-y-1"
