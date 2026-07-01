@@ -38,25 +38,6 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Backend Data
-
-The portfolio loads profile, project, and service data from the Django backend.
-Set the backend API base URL in the deployment environment:
-
-```bash
-BACKEND_API_URL=https://backend.masaba-kenneth.info/api
-```
-
-For local development with Django running on port 8000:
-
-```bash
-BACKEND_API_URL=http://127.0.0.1:8000/api
-```
-
-Static JSON content remains as fallback data for fields the backend does not
-store yet, such as project category, year, stack labels, roadmap, and localized
-section copy.
-
 ## License
 
 This project includes adapted code from the upstream MIT-licensed `kintarowwwards` project. See [LICENSE](LICENSE) for the original license terms.
