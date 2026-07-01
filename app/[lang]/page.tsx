@@ -1,26 +1,54 @@
-import { notFound } from "next/navigation";
-import { isValidLocale } from "@/lib/i18n";
-import PortfolioContent from "../portfolio-content";
-import PortfolioShell from "../portfolio-shell";
+import ScrollProgress from "@/components/layout/scroll-progress";
+import ManifestoFlow from "@/components/effects/manifesto-flow";
+import Hero from "@/components/sections/hero";
+import About from "@/components/sections/about";
+import Stack from "@/components/sections/stack";
+import Projects from "@/components/sections/projects";
+import Roadmap from "@/components/sections/roadmap";
+import Contact from "@/components/sections/contact";
 
-export function generateStaticParams() {
-  return [{ lang: 'en' }, { lang: 'tr' }];
-}
-
-export default async function Home({
-  params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
-  const { lang } = await params;
-
-  if (!isValidLocale(lang)) {
-    notFound();
-  }
-
+export default function Home() {
   return (
-    <PortfolioShell lang={lang}>
-      <PortfolioContent />
-    </PortfolioShell>
+    <>
+      <ScrollProgress />
+
+      <main className="bg-background relative">
+
+        <Hero />
+
+        <div className="relative z-10 bg-background border-t border-border">
+
+          <section id="about">
+            <About />
+          </section>
+
+          <ManifestoFlow />
+
+          <section id="stack">
+            <Stack />
+          </section>
+
+          <ManifestoFlow reverse />
+
+          <section id="projects">
+            <Projects />
+          </section>
+
+          <ManifestoFlow />
+
+          <section id="roadmap">
+            <Roadmap />
+          </section>
+
+          <ManifestoFlow reverse />
+
+          <section id="contact">
+            <Contact />
+          </section>
+
+        </div>
+
+      </main >
+    </>
   );
 }

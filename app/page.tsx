@@ -1,11 +1,6 @@
-import { DEFAULT_LOCALE } from "@/lib/i18n";
-import PortfolioContent from "./portfolio-content";
-import PortfolioShell from "./portfolio-shell";
+import { redirect } from 'next/navigation';
+import { DEFAULT_LOCALE } from '@/lib/i18n';
 
 export default function RootPage() {
-    return (
-        <PortfolioShell lang={DEFAULT_LOCALE}>
-            <PortfolioContent />
-        </PortfolioShell>
-    );
+    redirect(`/${DEFAULT_LOCALE}`);
 }
